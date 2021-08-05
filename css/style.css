@@ -153,7 +153,10 @@ form textarea {
   width: 90%;
   padding: 10px;
   margin: 8px 0;
+}
 
+form textarea {
+  min-height: 240px;
 }
 
 form input::placeholder,
@@ -481,10 +484,12 @@ footer a {
   }
 
   .hero .btn {
-    width: 70%;
-    font-size: 2.2rem;
+    width: 60%;
+    font-size: 2rem;
     min-height: 80px;
-    margin: 10vh 0 8vh 0;
+
+    padding-top: 13px;
+    margin: 5vh 0 2vh 0;
   }
 
   .phones p {
@@ -612,7 +617,7 @@ footer a {
     margin-bottom: 50px;
   }
 
-  .hero button {
+  .hero .btn {
     display: none;
   }
 
